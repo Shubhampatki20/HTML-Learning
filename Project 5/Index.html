@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./ham.png" alt="" class="menu-button">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colourful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Events -->
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./toomas-tartes-Yizrl9N_eDA-unsplash.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque perspiciatis si</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./ihsan-ulusoy--OBbRJzs1ds-unsplash.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque perspiciatis si</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>  
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <h1 class="line"></h1>
+            <P>JSJSDCJ SJCSCJD SJCJSDC SCJCCC JSCJSKDCN KSJCJSDC JCKSC ICCDJNCKC LMKCNKCC KSCJDSKN KNKSNKC</P>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS 7 DESTINATION</h1>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati commodi labore voluptatibus magnam, molestias officiis? Tempore, placeat quia distinctio nisi autem nobis deleniti, ipsa ut soluta quasi quos harum nulla.</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./laurentiu-morariu-zWGhVgY-GmY-unsplash.jpg" alt="" width="20%">
+                    <img src="./vishnu-prajapati-RaEFRWLy9ME-unsplash.jpg" alt="">
+                    <img src="./ted-bryan-yu-5mezpWin6T8-unsplash.jpg" alt="">
+                    <img src="./christopher-burns-Lh2qwkppkf8-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        const menuBtn=document.querySelector('.menu-button')
+        const navlinks=document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
